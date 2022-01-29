@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>penis parker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="https://releases.jquery.com/git/jquery-git.js"></script>
+        <style type="text/css">
+            body {
+                overflow: hidden;
+				background-color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <iframe id="video" src="https://www.youtube.com/embed/zCJ1xV7bd9M?rel=0&autoplay=1&color=white&controls=0&disablekb=1&wmode=transparent&autohide=1&mode=opaque" allowfullscreen="" style="width: 701px; height: 124px;" frameborder="0"></iframe>
+
+        <script type="text/javascript">
+            $(function () {
+                $("#video").css({ width: $(window).innerWidth() + "px", height: $(window).innerHeight() + "px" });
+
+                $(window).resize(function () {
+                    $("#video").css({ width: $(window).innerWidth() + "px", height: $(window).innerHeight() + "px" });
+                });
+            });
+        </script>
+    </body>
+</html>
